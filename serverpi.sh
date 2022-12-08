@@ -2,7 +2,7 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch.sh)"
 
 # Install npm then homebridge
-sudo pacman -Sy nodejs-lts-gallium npm make gcc net-tools
+sudo pacman -Sy --needed nodejs-lts-gallium npm make gcc net-tools
 sudo npm install -g --unsafe-perm homebridge homebridge-config-ui-x
 
 # Install pihole
