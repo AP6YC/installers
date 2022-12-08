@@ -1,5 +1,5 @@
 # Install arch dependencies
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch/setup.sh)"
 
 # Install npm then homebridge
 sudo pacman -Sy --needed nodejs-lts-gallium npm make gcc net-tools
