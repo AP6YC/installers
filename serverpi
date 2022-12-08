@@ -1,0 +1,11 @@
+# Install arch dependencies
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch.sh)"
+
+# Install npm then homebridge
+sudo pacman -Sy nodejs-lts-gallium npm make gcc net-tools
+sudo npm install -g --unsafe-perm homebridge homebridge-config-ui-x
+
+# Install pihole
+git clone --depth 1 https://github.com/pi-hole/pi-hole.git Pi-hole
+cd "Pi-hole/automated install/"
+sudo bash basic-install.sh
