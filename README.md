@@ -8,5 +8,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch
 
 Serverpi:
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/serverpi)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/serverpi.sh)"
 ```
