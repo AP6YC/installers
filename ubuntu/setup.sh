@@ -6,7 +6,8 @@ sudo apt upgrade
 sudo apt install \
   git \
   zsh \
-  tmux
+  tmux \
+  neofetch
 
 # Ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

@@ -7,7 +7,8 @@ sudo pacman -S --needed \
   git \
   zsh \
   tmux \
-  yay
+  yay \
+  neofetch
 
 # Ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
