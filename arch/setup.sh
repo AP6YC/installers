@@ -8,3 +8,6 @@ sudo pacman -S --needed \
   zsh \
   tmux \
   yay
+
+# Ohmyzsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

@@ -1,12 +1,26 @@
 # installers
 This repository contains scripts for standard system installations.
 
-Arch:
+## Ubuntu
+
+Setup:
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/ubuntu/setup.sh)"
 ```
 
 Serverpi:
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/serverpi.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/ubuntu/serverpi.sh)"
+```
+
+## Arch
+
+Setup:
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch/setup.sh)"
+```
+
+Serverpi:
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AP6YC/installers/main/arch/serverpi.sh)"
 ```
